@@ -10,7 +10,7 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:david.londono120@gmail.com'>david.londono120@gmail.com</LinkItem>
+          <LinkItem href='mailto:david.londono120@gmail.com'>dlondon.dev@gmail.com</LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
@@ -18,10 +18,10 @@ const Footer = () => {
           <Slogan>Innovating one project at a time</Slogan>
         </CompanyContainer> */}
         <SocialContainer>
-          <SocialIcons href='https://github.com/Lycan-h8u'>
+          <SocialIcons target='_blank' href='https://github.com/davidldv'>
             <AiFillGithub size='3rem' />
           </SocialIcons>
-          <SocialIcons href='https://www.linkedin.com/in/david54/'>
+          <SocialIcons target='_blank' href='https://www.linkedin.com/in/davidldv/'>
             <AiFillLinkedin size='3rem' />
           </SocialIcons>
         </SocialContainer>

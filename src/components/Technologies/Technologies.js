@@ -7,9 +7,9 @@ const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider />
     <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle>Tecnologías</SectionTitle>
     <SectionText>
-      I've worked with a range of technologies in the web development world.
+      He trabajado con muchas tecnologías a lo largo de mi carrera, como son:
     </SectionText>
     <List>
       <ListItem>
@@ -17,28 +17,28 @@ const Technologies = () =>  (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            HTML, TailwindCSS, JavaScript and React.js
+            Experiencia con <br />
+            HTML5, TailwindCSS, TypeScript, React.js, Next.js
           </ListParagraph>
         </ListContainer>
       </ListItem>
-      {/* <ListItem>
+      <ListItem>
         <DiFirebase size='3rem' />
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Node.js and Databases
+            Experiencia con <br />
+            Node.js, Express.js, Nest.js and Databases: PostgreSQL
           </ListParagraph>
         </ListContainer>
-      </ListItem> */}
+      </ListItem>
       <ListItem>
         <DiGithubBadge size='3rem' />
         <ListContainer>
           <ListTitle>Softwares</ListTitle>
           <ListParagraph>
-            Experience with <br />
-            Git
+            Experiencia con <br />
+            Git, Scrum, Amazon Web Services
           </ListParagraph>
         </ListContainer>
       </ListItem>

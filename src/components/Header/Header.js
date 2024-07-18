@@ -10,32 +10,32 @@ const Header = () =>  (
     <Div1>
       <Link legacyBehavior href='/'>
         <a style={{ display: 'flex', alignItems: 'center', color: 'white', marginBottom: '20px' }}>
-          <DiCssdeck size='3rem' /> <Span>Portfolio</Span>
+          <DiCssdeck size='3rem' /> <Span>Portafolio</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
       <li>
         <Link legacyBehavior href='#projects'>
-          <NavLink>Projects</NavLink>
+          <NavLink>Proyectos</NavLink>
         </Link>
       </li>
       <li>
         <Link legacyBehavior href='#tech'>
-          <NavLink>Technologies</NavLink>
+          <NavLink>Tecnologías</NavLink>
         </Link>
       </li>
       <li>
         <Link legacyBehavior href='#about'>
-          <NavLink>About</NavLink>
+          <NavLink>Sobre mí</NavLink>
         </Link>
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href='https://github.com/davidldv'>
+      <SocialIcons target='_blank' href='https://github.com/davidldv'>
         <AiFillGithub size='3rem' />
       </SocialIcons>
-      <SocialIcons href='https://www.linkedin.com/in/davidldv/'>
+      <SocialIcons target='_blank' href='https://www.linkedin.com/in/davidldv/'>
         <AiFillLinkedin size='3rem' />
       </SocialIcons>
     </Div3>

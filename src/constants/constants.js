@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: 'GPT-3',
-    description: "For this project, I utilized the React.js framework to build a dynamic and responsive web application. The mere reason I built this was to test my skills, you might not find any sense to the text on this project.",
+    description: "Para este proyecto utilicé React para la interactividad y CSS3 para la maquetación y estilo de la app.",
       image: '/images/1.png',
       tags: ['CSS', 'JavaScript', 'React'],
     source: 'https://gpt3-project.vercel.app/',
@@ -9,7 +9,7 @@ export const projects = [
   },
   {
     title: 'Gericht Restaurant',
-    description:"This project is a restaurant web app developed using React.js. The end result is a user-friendly app that allows users to easily access restaurant information and is fully responsive.",
+    description:"Este proyecto es una web hecha en React para un restaurante.",
     image: '/images/2.png',
     tags: ['CSS', 'JavaScript', 'React'],
     source: 'https://gericht-restaurant-lycan-h8u.vercel.app/',
@@ -34,6 +34,8 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2021, text: 'Started my journey as a web developer', },
-  { year: 2022, text: 'Shared my projects with the world' }
+  { year: 2021, text: 'Empecé mi camino como desarrollador web.', },
+  { year: 2022, text: 'Compartí mis conocimientos con el mundo.' },
+  { year: 2023, text: 'Desarrollé experiencia con proyectos complejos y prácticos trabajando en equipo.' },
+  { year: 2024, text: 'Completé un bootcamp de desarrollo FullStack.' }
 ];

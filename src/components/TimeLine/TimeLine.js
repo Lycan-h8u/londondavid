@@ -44,11 +44,8 @@ const Timeline = () => {
 
   return (
     <Section id='about'>
-      <SectionTitle>About Me</SectionTitle>
+      {/* <SectionTitle>Sobre mí</SectionTitle> */}
       <SectionText>
-        Hi there! My name is David Londoño and I am a front-end developer with a passion for creating visually appealing and user-friendly websites. <br /> <br />
-        I have a strong foundation in HTML, TalwindCSS, JavaScript, React.js and currently learning more technologies like Next.js, I'm always looking to expand my skills and stay up-to-date with the latest development technologies. I enjoy the process of taking a design and bringing it to life, as well as finding ways to make websites more interactive and engaging for users. <br /> <br />
-        I am excited to continue growing as a developer and taking on new challenges. Thank you for considering my portfolio.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
