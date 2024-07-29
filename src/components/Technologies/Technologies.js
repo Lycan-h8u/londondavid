@@ -9,7 +9,7 @@ const Technologies = () =>  (
     <br />
     <SectionTitle>Tecnologías</SectionTitle>
     <SectionText>
-      He trabajado con muchas tecnologías a lo largo de mi carrera, como son:
+      He trabajado con muchas tecnologías a lo largo de mi carrera:
     </SectionText>
     <List>
       <ListItem>
